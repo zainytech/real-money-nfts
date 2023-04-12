@@ -1,0 +1,151 @@
+  .nft-buynow-hover-btn button{
+    padding:0.5rem 1rem 0.5rem 1rem;
+    background-color: white;
+    color:black;
+    border:none;
+    border-radius: 0.5rem;
+    font-size: 16px;
+  position: absolute;
+  bottom:1rem;
+  right:1rem;
+    cursor:pointer;
+  }
+
+  /* modal's styling//////// */
+.buynow-pup-main{
+    width:20rem;
+    color:white;
+    /* position: relative; */
+}
+.buynow-pup-cross{
+    position: absolute;
+    right:1rem;
+    top:1rem;
+    cursor:pointer;
+    color:rgba(12, 12, 12, 0.9);
+}
+.buynow-pup-main-container{
+    margin-left:2rem;
+    margin-right:2rem;
+    margin-top:1rem;
+}
+.buynow-pup-div1{
+    font-size:20px;
+    font-weight: 600;
+    margin-top:1rem;
+}
+.buynow-pup-div2{
+    margin-top:1rem;
+    color:grey;
+font-weight: 600;
+}
+.buynow-pup-div2 span{
+    color:white;
+}
+.buynow-pup-div3{
+    padding:1rem;
+    border:grey solid 1px;
+    border-radius:1rem;
+    margin-top:1rem;
+    display:flex;
+    gap:1rem;
+}
+.buynow-pup-div3b-a{
+    font-weight: 600;
+}
+.buynow-pup-div3b-b{
+    color:grey;
+}
+.buynow-pup-div3b-c{
+    font-size:12px;
+    color:green;
+    padding:0.2rem;
+    height:1rem;
+    border-radius:0.5rem;
+    background-color:rgb(8, 128, 8,0.2);
+}
+.buynow-pup-div4{
+    margin-top:1rem;
+    padding-bottom:0.5rem;
+    border-bottom:grey solid 0.5px;
+}
+.buynow-pup-div4a{
+    position: relative;
+}
+.buynow-pup-div4a-txt1{
+    color:grey;
+    font-weight: 600;
+}
+.buynow-pup-div4a-txt2{
+    position: absolute;
+    right:0;
+}
+.buynow-pup-div5{
+    margin-top:1rem;
+    position: relative;
+    padding-bottom:0.5rem;
+    border-bottom:grey solid 0.5px;
+}
+.buynow-pup-div6{
+    margin-top:1rem;
+
+}
+.buynow-pup-div6 button{
+    background-color:rgb(36, 35, 35);
+    padding:1rem;
+    color:white;
+    border-radius:1rem;
+    width:100%;
+    border:none;
+    font-size:16px;
+    font-weight: 600;
+    cursor:pointer;
+}
+.buynow-pup-div7{
+    text-align: center;
+    color:grey;
+    margin-top:1rem;
+}
+
+@media screen and (max-width: 550px) {
+    #buynow-modal{
+        position: relative !important;
+        left:0 !important;
+        right:none !important;
+        align-items: left !important;
+        justify-content: left !important;
+    }
+    .buynow-pup-main{
+        width:15rem;
+    }
+    .buynow-pup-div1{
+        font-size:14px;
+    }
+    .buynow-pup-div2{
+    font-size:12px;
+    }
+    .buynow-pup-div3{
+        padding:0.5rem;
+        gap:0.5rem;
+    }
+    .buynow-pup-div3b{
+        font-size:12px;
+    }
+    .buynow-pup-div3b-c{
+        font-size:8px;
+        height:0.7rem;
+        border-radius:0.3rem;
+    }
+    .buynow-pup-div4{
+        font-size:12px;
+    }
+    .buynow-pup-div5{
+        font-size:12px;
+    }
+    .buynow-pup-div6 button{
+        font-size:12px;
+    }
+    .buynow-pup-div7{
+        font-size: 12px;
+    }
+}

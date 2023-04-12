@@ -1,0 +1,42 @@
+.exmeta{
+    color: black;
+    width: 100%;
+    margin: 2rem 0 1.6rem 0;
+    text-align: left;
+}
+.exmeta h4{
+    font-size: 1.5rem;
+    margin-bottom: .4rem;
+}
+.exmeta div{
+    font-size: 16px;
+    color: gray;
+    line-height: 1.2em;
+}
+.exmeta-row1{
+    width: 100%;
+    margin: 3rem auto;
+    display: flex;
+    gap: 1rem;
+    padding: 1.6rem .4rem;
+    background-color: rgba(0,0,0,.07);
+}
+.exmeta-row1-col{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    line-height: 1em;
+    border-radius: .4rem;
+
+}
+.exmeta-row1-col h4{
+    color: black;
+}
+
+@media screen and (max-width: 720px){
+    .exmeta{
+        color: black;
+        width: 98%;
+        margin: 2rem auto 1.6rem auto;
+    }
+}
